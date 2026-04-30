@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Muhammad Saljooq — Cloud Engineer</title>
+    <meta
+      name="description"
+      content="AWS Certified Cloud Engineer. IaC, CI/CD, and scalable systems. Currently at LUMS pursuing M.Sc. Computer Science."
+    />
+    <meta property="og:title" content="Portfolio" />
+    <meta
+      property="og:description"
+      content="Personal portfolio website scaffold for a software engineer turned cloud engineer."
+    />
+    <meta property="og:image" content="assets/icons/og-image-placeholder.png" />
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Mono:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="#home" class="nav-logo">~/saljooq</a>
+      <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#work">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="hero-role reveal">Back-End Developer → Cloud Engineer</p>
+        <h1 class="hero-title reveal delay-1">Muhammad Saljooq.</h1>
+        <p class="hero-bio reveal delay-2">
+          AWS Certified. Building cloud infrastructure since 2023.
+        </p>
+        <span class="hero-badge reveal delay-3">
+          <span class="badge-dot"></span>Open to opportunities
+        </span>
+      </div>
+    </section>
+
+    <div class="cert-strip" aria-label="Certifications">
+      <div class="cert-badge">
+        <span class="cert-shield" aria-hidden="true"></span>
+        <span class="cert-text">
+          <span class="cert-title">AWS Certified Cloud Practitioner</span>
+          <span class="cert-issuer">Amazon Web Services</span>
+        </span>
+      </div>
+      <div class="cert-divider" aria-hidden="true"></div>
+      <div class="cert-badge">
+        <span class="cert-shield" aria-hidden="true"></span>
+        <span class="cert-text">
+          <span class="cert-title">AWS Certified AI Practitioner</span>
+          <span class="cert-issuer">Amazon Web Services</span>
+        </span>
+      </div>
+    </div>
+
+    <section class="section" id="work">
+      <h2 class="section-label">Selected Work</h2>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="card-top">
+            <span class="card-name">VoccoTalk</span>
+          </div>
+          <div class="card-line"></div>
+          <p class="card-desc">
+            Full-stack SaaS platform for businesses to deploy AI voice and text
+            calling agents. Built solo - from OpenAI integration and agent
+            training workflows to a Next.js frontend hosted entirely on AWS.
+          </p>
+          <div class="card-tags">
+            <span class="tag">AWS</span>
+            <span class="tag">OpenAI API</span>
+            <span class="tag">Next.js</span>
+            <span class="tag">SaaS</span>
+          </div>
+          <div class="card-links">
+            <a href="#" class="card-link">GitHub ↗</a>
+            <a href="#" class="card-link">Live ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top">
+            <span class="card-name">NeckarDrive</span>
+          </div>
+          <div class="card-line"></div>
+          <p class="card-desc">
+            End-to-end ride booking app with Google Maps real-time routing, fare
+            estimation, vehicle selection, and trip tracking. Clean layered
+            backend deployed on AWS EC2 with Lambda support.
+          </p>
+          <div class="card-tags">
+            <span class="tag">React</span>
+            <span class="tag">Spring Boot</span>
+            <span class="tag">AWS EC2</span>
+            <span class="tag">Google Maps API</span>
+          </div>
+          <div class="card-links">
+            <a href="#" class="card-link">GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top">
+            <span class="card-name">AI WhatsApp Chatbot</span>
+          </div>
+          <div class="card-line"></div>
+          <p class="card-desc">
+            Intelligent chatbot handling text, voice, images, and documents over
+            WhatsApp. RAG pipeline uses vector search for context-aware replies.
+            Fully automated and production-ready.
+          </p>
+          <div class="card-tags">
+            <span class="tag">n8n</span>
+            <span class="tag">OpenAI</span>
+            <span class="tag">MongoDB Atlas</span>
+            <span class="tag">RAG</span>
+            <span class="tag">Whisper</span>
+          </div>
+          <div class="card-links">
+            <a href="#" class="card-link">GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top">
+            <span class="card-name">Laiba Industry ERP</span>
+          </div>
+          <div class="card-line"></div>
+          <p class="card-desc">
+            Production-ready custom ERP system delivered for a real industrial
+            client. Covers core business operations with a relational database,
+            GitHub Actions CI/CD, and devcontainer team environments.
+          </p>
+          <div class="card-tags">
+            <span class="tag">Laravel</span>
+            <span class="tag">GitHub Actions</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">CI/CD</span>
+          </div>
+          <div class="card-links">
+            <a href="#" class="card-link">GitHub ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top">
+            <span class="card-name">AWS Cloud Infrastructure</span>
+          </div>
+          <div class="card-line"></div>
+          <p class="card-desc">
+            Architected and maintained production AWS infrastructure achieving
+            99.9% uptime. Terraform IaC modules cut deployment time by 35%.
+            CloudWatch dashboards reduced incident response time by 40%.
+          </p>
+          <div class="card-tags">
+            <span class="tag">AWS</span>
+            <span class="tag">Terraform</span>
+            <span class="tag">CloudWatch</span>
+            <span class="tag">IaC</span>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="card-top">
+            <span class="card-name">Cloud Cost Optimisation</span>
+          </div>
+          <div class="card-line"></div>
+          <p class="card-desc">
+            Led infrastructure cost reviews identifying idle and under-utilised
+            resources across production AWS accounts, delivering consistent 22%
+            monthly cost savings.
+          </p>
+          <div class="card-tags">
+            <span class="tag">AWS</span>
+            <span class="tag">Cost Explorer</span>
+            <span class="tag">EC2</span>
+            <span class="tag">S3</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <h2 class="section-label">About</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I started my career as a back-end developer - microservices, REST
+            APIs, GraphQL, databases. After three years writing software, I
+            made a deliberate move into cloud engineering at Vertex IT
+            Solutions, where I spent over a year architecting and operating
+            production AWS infrastructure.
+          </p>
+          <p>
+            Today I focus on IaC, CI/CD, cost optimisation, and observability.
+            I hold AWS certifications in Cloud Practitioner and AI
+            Practitioner, and I'm currently completing an M.Sc. in Computer
+            Science at LUMS. I build things that scale - and that don't wake
+            you up at 3am.
+          </p>
+        </div>
+        <div class="about-skills">
+          <div class="skill-group">
+            <p class="skill-group-label">Cloud &amp; DevOps</p>
+            <div class="skill-tags">
+              <span class="tag">AWS</span>
+              <span class="tag">Terraform</span>
+              <span class="tag">Ansible</span>
+              <span class="tag">Docker</span>
+              <span class="tag">Kubernetes</span>
+              <span class="tag">GitHub Actions</span>
+              <span class="tag">Jenkins</span>
+              <span class="tag">CloudWatch</span>
+              <span class="tag">CI/CD</span>
+              <span class="tag">Linux</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <p class="skill-group-label">Backend &amp; Languages</p>
+            <div class="skill-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">Django</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">GraphQL</span>
+              <span class="tag">REST APIs</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">DynamoDB</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">Bash</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <span class="timeline-label">Back-End Developer</span>
+          <span class="timeline-year">2019</span>
+        </div>
+        <div class="timeline-line"></div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <span class="timeline-label">Cloud Engineer</span>
+          <span class="timeline-year">2023</span>
+        </div>
+        <div class="timeline-line"></div>
+        <div class="timeline-item">
+          <div class="timeline-dot accent"></div>
+          <span class="timeline-label timeline-now">Now</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <h2 class="contact-heading">Let's Build Something.</h2>
+      <p class="contact-sub">
+        Available for freelance, full-time, and consulting.
+      </p>
+      <div class="contact-buttons">
+        <a href="mailto:m.saljooq1302@gmail.com" class="btn">Email ↗</a>
+        <a href="https://linkedin.com/in/muhammadsaljooq" class="btn">LinkedIn ↗</a>
+        <a href="https://github.com/muhammadsaljooq" class="btn">GitHub ↗</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Designed &amp; built by Muhammad Saljooq · 2025 · All rights reserved</p>
+    </footer>
+
+    <button class="back-to-top" aria-label="Back to top" id="backToTop">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
