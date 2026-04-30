@@ -32,9 +32,11 @@
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links">
-        <li><a href="#freelance">Freelance</a></li>
-        <li><a href="#work">Work</a></li>
         <li><a href="#about">About</a></li>
+        <li><a href="#certification">Certification</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#freelance">Freelance</a></li>
+        <li><a href="#reviews">Testimonials</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
@@ -84,7 +86,80 @@
       </div>
     </section>
 
-    <div class="cert-strip" aria-label="Certifications">
+    <section class="section" id="about">
+      <h2 class="section-label">About</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I started my career as a back-end developer - microservices, REST
+            APIs, GraphQL, databases. After three years writing software, I
+            made a deliberate move into cloud engineering at Vertex IT
+            Solutions, where I spent over a year architecting and operating
+            production AWS infrastructure.
+          </p>
+          <p>
+            Today I focus on IaC, CI/CD, cost optimisation, and observability.
+            I hold AWS certifications in Cloud Practitioner and AI
+            Practitioner, and I'm currently completing an M.Sc. in Computer
+            Science at LUMS. I build things that scale - and that don't wake
+            you up at 3am.
+          </p>
+        </div>
+        <div class="about-skills">
+          <div class="skill-group">
+            <p class="skill-group-label">Cloud &amp; DevOps</p>
+            <div class="skill-tags">
+              <span class="tag">AWS</span>
+              <span class="tag">Terraform</span>
+              <span class="tag">Ansible</span>
+              <span class="tag">Docker</span>
+              <span class="tag">Kubernetes</span>
+              <span class="tag">GitHub Actions</span>
+              <span class="tag">Jenkins</span>
+              <span class="tag">CloudWatch</span>
+              <span class="tag">CI/CD</span>
+              <span class="tag">Linux</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <p class="skill-group-label">Backend &amp; Languages</p>
+            <div class="skill-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">Django</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">GraphQL</span>
+              <span class="tag">REST APIs</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">DynamoDB</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">Bash</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <span class="timeline-label">Back-End Developer</span>
+          <span class="timeline-year">2019</span>
+        </div>
+        <div class="timeline-line"></div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <span class="timeline-label">Cloud Engineer</span>
+          <span class="timeline-year">2023</span>
+        </div>
+        <div class="timeline-line"></div>
+        <div class="timeline-item">
+          <div class="timeline-dot accent"></div>
+          <span class="timeline-label timeline-now">Now</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="cert-strip" id="certification" aria-label="Certifications">
       <div class="cert-badge">
         <span class="cert-shield" aria-hidden="true"></span>
         <span class="cert-text">
@@ -101,114 +176,6 @@
         </span>
       </div>
     </div>
-
-    <section class="section" id="freelance">
-      <h2 class="section-label">Freelance Work</h2>
-      <p class="freelance-sub">Via Upwork · 100% Job Success</p>
-
-      <div class="freelance-grid">
-        <article class="freelance-card">
-          <div class="image-container freelance-image">
-            <img
-              src="assets/images/vocco-talk.jpg"
-              alt="VoccoTalk AI SaaS Platform screenshot"
-              style="width: 100%; height: 100%; object-fit: cover"
-            />
-          </div>
-          <div class="freelance-body">
-            <h3 class="freelance-title">VoccoTalk — AI SaaS Platform</h3>
-            <p class="freelance-desc">
-              AI voice &amp; text agent platform built solo on AWS
-            </p>
-            <div class="card-tags">
-              <span class="tag">AWS</span>
-              <span class="tag">OpenAI</span>
-              <span class="tag">Next.js</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="freelance-card">
-          <div class="image-container freelance-image">
-            <img
-              src="assets/images/neckardrive.jpg"
-              alt="NeckarDrive ride booking app screenshot"
-              style="width: 100%; height: 100%; object-fit: cover"
-            />
-          </div>
-          <div class="freelance-body">
-            <h3 class="freelance-title">NeckarDrive — Ride Booking App</h3>
-            <p class="freelance-desc">
-              Real-time ride booking with Google Maps &amp; Spring Boot
-            </p>
-            <div class="card-tags">
-              <span class="tag">React</span>
-              <span class="tag">Spring Boot</span>
-              <span class="tag">AWS EC2</span>
-            </div>
-          </div>
-        </article>
-
-        <article class="freelance-card">
-          <div class="image-container freelance-image">
-            <img
-              src="assets/images/whatsapp-bot.jpg"
-              alt="AI WhatsApp agent screenshot"
-              style="width: 100%; height: 100%; object-fit: cover"
-            />
-          </div>
-          <div class="freelance-body">
-            <h3 class="freelance-title">AI WhatsApp Agent</h3>
-            <p class="freelance-desc">
-              RAG-powered chatbot for voice, images, and documents
-            </p>
-            <div class="card-tags">
-              <span class="tag">n8n</span>
-              <span class="tag">OpenAI</span>
-              <span class="tag">MongoDB Atlas</span>
-            </div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="section" id="reviews">
-      <h2 class="section-label">Client Reviews</h2>
-
-      <div class="reviews-grid">
-        <article class="review-card">
-          <div class="review-quote" aria-hidden="true">"</div>
-          <p class="review-text">
-            Muhammad delivered exactly what we needed - clean infrastructure,
-            zero downtime, and clear documentation throughout. Will definitely
-            hire again.
-          </p>
-          <div class="review-bottom">
-            <div class="review-client">
-              <p class="review-client-name">James R. · 🇩🇪 Germany</p>
-              <p class="review-client-meta">via Upwork</p>
-            </div>
-            <div class="review-stars" aria-label="Five star review">★★★★★</div>
-          </div>
-        </article>
-
-        <article class="review-card">
-          <div class="review-quote" aria-hidden="true">"</div>
-          <p class="review-text">
-            Excellent cloud engineer. Set up our entire AWS stack with
-            Terraform from scratch. Very communicative and professional
-            throughout the project.
-          </p>
-          <div class="review-bottom">
-            <div class="review-client">
-              <p class="review-client-name">Sarah M. · 🇺🇸 United States</p>
-              <p class="review-client-meta">via Upwork</p>
-            </div>
-            <div class="review-stars" aria-label="Five star review">★★★★★</div>
-          </div>
-        </article>
-      </div>
-    </section>
 
     <section class="section" id="work">
       <h2 class="section-label">Selected Work</h2>
@@ -337,76 +304,111 @@
       </div>
     </section>
 
-    <section class="section" id="about">
-      <h2 class="section-label">About</h2>
-      <div class="about-grid">
-        <div class="about-text">
-          <p>
-            I started my career as a back-end developer - microservices, REST
-            APIs, GraphQL, databases. After three years writing software, I
-            made a deliberate move into cloud engineering at Vertex IT
-            Solutions, where I spent over a year architecting and operating
-            production AWS infrastructure.
-          </p>
-          <p>
-            Today I focus on IaC, CI/CD, cost optimisation, and observability.
-            I hold AWS certifications in Cloud Practitioner and AI
-            Practitioner, and I'm currently completing an M.Sc. in Computer
-            Science at LUMS. I build things that scale - and that don't wake
-            you up at 3am.
-          </p>
-        </div>
-        <div class="about-skills">
-          <div class="skill-group">
-            <p class="skill-group-label">Cloud &amp; DevOps</p>
-            <div class="skill-tags">
-              <span class="tag">AWS</span>
-              <span class="tag">Terraform</span>
-              <span class="tag">Ansible</span>
-              <span class="tag">Docker</span>
-              <span class="tag">Kubernetes</span>
-              <span class="tag">GitHub Actions</span>
-              <span class="tag">Jenkins</span>
-              <span class="tag">CloudWatch</span>
-              <span class="tag">CI/CD</span>
-              <span class="tag">Linux</span>
-            </div>
-          </div>
-          <div class="skill-group">
-            <p class="skill-group-label">Backend &amp; Languages</p>
-            <div class="skill-tags">
-              <span class="tag">Python</span>
-              <span class="tag">Node.js</span>
-              <span class="tag">Django</span>
-              <span class="tag">Spring Boot</span>
-              <span class="tag">GraphQL</span>
-              <span class="tag">REST APIs</span>
-              <span class="tag">PostgreSQL</span>
-              <span class="tag">DynamoDB</span>
-              <span class="tag">MongoDB</span>
-              <span class="tag">Bash</span>
-            </div>
-          </div>
-        </div>
-      </div>
+    <section class="section" id="freelance">
+      <h2 class="section-label">Freelance Work</h2>
+      <p class="freelance-sub">Via Upwork · 100% Job Success</p>
 
-      <div class="timeline">
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <span class="timeline-label">Back-End Developer</span>
-          <span class="timeline-year">2019</span>
-        </div>
-        <div class="timeline-line"></div>
-        <div class="timeline-item">
-          <div class="timeline-dot"></div>
-          <span class="timeline-label">Cloud Engineer</span>
-          <span class="timeline-year">2023</span>
-        </div>
-        <div class="timeline-line"></div>
-        <div class="timeline-item">
-          <div class="timeline-dot accent"></div>
-          <span class="timeline-label timeline-now">Now</span>
-        </div>
+      <div class="freelance-grid">
+        <article class="freelance-card">
+          <div class="image-container freelance-image">
+            <img
+              src="assets/images/vocco-talk.jpg"
+              alt="VoccoTalk AI SaaS Platform screenshot"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="freelance-body">
+            <h3 class="freelance-title">VoccoTalk — AI SaaS Platform</h3>
+            <p class="freelance-desc">
+              AI voice &amp; text agent platform built solo on AWS
+            </p>
+            <div class="card-tags">
+              <span class="tag">AWS</span>
+              <span class="tag">OpenAI</span>
+              <span class="tag">Next.js</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="freelance-card">
+          <div class="image-container freelance-image">
+            <img
+              src="assets/images/neckardrive.jpg"
+              alt="NeckarDrive ride booking app screenshot"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="freelance-body">
+            <h3 class="freelance-title">NeckarDrive — Ride Booking App</h3>
+            <p class="freelance-desc">
+              Real-time ride booking with Google Maps &amp; Spring Boot
+            </p>
+            <div class="card-tags">
+              <span class="tag">React</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">AWS EC2</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="freelance-card">
+          <div class="image-container freelance-image">
+            <img
+              src="assets/images/whatsapp-bot.jpg"
+              alt="AI WhatsApp agent screenshot"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="freelance-body">
+            <h3 class="freelance-title">AI WhatsApp Agent</h3>
+            <p class="freelance-desc">
+              RAG-powered chatbot for voice, images, and documents
+            </p>
+            <div class="card-tags">
+              <span class="tag">n8n</span>
+              <span class="tag">OpenAI</span>
+              <span class="tag">MongoDB Atlas</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="reviews">
+      <h2 class="section-label">Client Reviews</h2>
+
+      <div class="reviews-grid">
+        <article class="review-card">
+          <div class="review-quote" aria-hidden="true">"</div>
+          <p class="review-text">
+            Muhammad delivered exactly what we needed - clean infrastructure,
+            zero downtime, and clear documentation throughout. Will definitely
+            hire again.
+          </p>
+          <div class="review-bottom">
+            <div class="review-client">
+              <p class="review-client-name">James R. · 🇩🇪 Germany</p>
+              <p class="review-client-meta">via Upwork</p>
+            </div>
+            <div class="review-stars" aria-label="Five star review">★★★★★</div>
+          </div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-quote" aria-hidden="true">"</div>
+          <p class="review-text">
+            Excellent cloud engineer. Set up our entire AWS stack with
+            Terraform from scratch. Very communicative and professional
+            throughout the project.
+          </p>
+          <div class="review-bottom">
+            <div class="review-client">
+              <p class="review-client-name">Sarah M. · 🇺🇸 United States</p>
+              <p class="review-client-meta">via Upwork</p>
+            </div>
+            <div class="review-stars" aria-label="Five star review">★★★★★</div>
+          </div>
+        </article>
       </div>
     </section>
 
