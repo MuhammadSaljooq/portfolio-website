@@ -32,6 +32,7 @@
         <span></span><span></span><span></span>
       </button>
       <ul class="nav-links">
+        <li><a href="#freelance">Freelance</a></li>
         <li><a href="#work">Work</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
@@ -39,15 +40,47 @@
     </nav>
 
     <section class="hero" id="home">
-      <div class="hero-content">
-        <p class="hero-role reveal">Back-End Developer → Cloud Engineer</p>
-        <h1 class="hero-title reveal delay-1">Muhammad Saljooq.</h1>
-        <p class="hero-bio reveal delay-2">
-          AWS Certified. Building cloud infrastructure since 2023.
-        </p>
-        <span class="hero-badge reveal delay-3">
-          <span class="badge-dot"></span>Open to opportunities
-        </span>
+      <div class="hero-layout">
+        <div class="hero-content">
+          <p class="hero-role reveal">Back-End Developer → Cloud Engineer</p>
+          <h1 class="hero-title reveal delay-1">Muhammad Saljooq.</h1>
+          <p class="hero-bio reveal delay-2">
+            AWS Certified. Building cloud infrastructure since 2023.
+          </p>
+          <span class="hero-badge reveal delay-3">
+            <span class="badge-dot"></span>Open to opportunities
+          </span>
+        </div>
+
+        <div class="hero-side">
+          <div class="image-container profile-image">
+            <img src="assets/images/profile.jpg" alt="Muhammad Saljooq profile photo" />
+          </div>
+
+          <div class="upwork-card">
+            <div class="upwork-stat">
+              <span class="upwork-value">100%</span>
+              <span class="upwork-label">Job Success</span>
+            </div>
+            <div class="upwork-divider" aria-hidden="true"></div>
+            <div class="upwork-stat">
+              <span class="upwork-value">2+</span>
+              <span class="upwork-label">Years on Upwork</span>
+            </div>
+            <div class="upwork-divider" aria-hidden="true"></div>
+            <div class="upwork-stat">
+              <span class="upwork-value">5★</span>
+              <span class="upwork-label">Rating</span>
+            </div>
+          </div>
+
+          <a
+            class="upwork-link"
+            href="https://www.upwork.com/freelancers/~012d42a62513639dfb"
+            target="_blank"
+            >View Upwork Profile ↗</a
+          >
+        </div>
       </div>
     </section>
 
@@ -68,6 +101,114 @@
         </span>
       </div>
     </div>
+
+    <section class="section" id="freelance">
+      <h2 class="section-label">Freelance Work</h2>
+      <p class="freelance-sub">Via Upwork · 100% Job Success</p>
+
+      <div class="freelance-grid">
+        <article class="freelance-card">
+          <div class="image-container freelance-image">
+            <img
+              src="assets/images/vocco-talk.jpg"
+              alt="VoccoTalk AI SaaS Platform screenshot"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="freelance-body">
+            <h3 class="freelance-title">VoccoTalk — AI SaaS Platform</h3>
+            <p class="freelance-desc">
+              AI voice &amp; text agent platform built solo on AWS
+            </p>
+            <div class="card-tags">
+              <span class="tag">AWS</span>
+              <span class="tag">OpenAI</span>
+              <span class="tag">Next.js</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="freelance-card">
+          <div class="image-container freelance-image">
+            <img
+              src="assets/images/neckardrive.jpg"
+              alt="NeckarDrive ride booking app screenshot"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="freelance-body">
+            <h3 class="freelance-title">NeckarDrive — Ride Booking App</h3>
+            <p class="freelance-desc">
+              Real-time ride booking with Google Maps &amp; Spring Boot
+            </p>
+            <div class="card-tags">
+              <span class="tag">React</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">AWS EC2</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="freelance-card">
+          <div class="image-container freelance-image">
+            <img
+              src="assets/images/whatsapp-bot.jpg"
+              alt="AI WhatsApp agent screenshot"
+              style="width: 100%; height: 100%; object-fit: cover"
+            />
+          </div>
+          <div class="freelance-body">
+            <h3 class="freelance-title">AI WhatsApp Agent</h3>
+            <p class="freelance-desc">
+              RAG-powered chatbot for voice, images, and documents
+            </p>
+            <div class="card-tags">
+              <span class="tag">n8n</span>
+              <span class="tag">OpenAI</span>
+              <span class="tag">MongoDB Atlas</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="reviews">
+      <h2 class="section-label">Client Reviews</h2>
+
+      <div class="reviews-grid">
+        <article class="review-card">
+          <div class="review-quote" aria-hidden="true">"</div>
+          <p class="review-text">
+            Muhammad delivered exactly what we needed - clean infrastructure,
+            zero downtime, and clear documentation throughout. Will definitely
+            hire again.
+          </p>
+          <div class="review-bottom">
+            <div class="review-client">
+              <p class="review-client-name">James R. · 🇩🇪 Germany</p>
+              <p class="review-client-meta">via Upwork</p>
+            </div>
+            <div class="review-stars" aria-label="Five star review">★★★★★</div>
+          </div>
+        </article>
+
+        <article class="review-card">
+          <div class="review-quote" aria-hidden="true">"</div>
+          <p class="review-text">
+            Excellent cloud engineer. Set up our entire AWS stack with
+            Terraform from scratch. Very communicative and professional
+            throughout the project.
+          </p>
+          <div class="review-bottom">
+            <div class="review-client">
+              <p class="review-client-name">Sarah M. · 🇺🇸 United States</p>
+              <p class="review-client-meta">via Upwork</p>
+            </div>
+            <div class="review-stars" aria-label="Five star review">★★★★★</div>
+          </div>
+        </article>
+      </div>
+    </section>
 
     <section class="section" id="work">
       <h2 class="section-label">Selected Work</h2>
