@@ -31,3 +31,35 @@ if (backToTop) {
     window.scrollTo({ top: 0, behavior: "smooth" });
   });
 }
+
+document.addEventListener(
+  "error",
+  (event) => {
+    const target = event.target;
+    if (!(target instanceof HTMLImageElement)) {
+      return;
+    }
+
+    const container = target.closest(".image-container");
+    if (container) {
+      container.classList.add("is-missing");
+    }
+  },
+  true
+);
+
+document.addEventListener(
+  "load",
+  (event) => {
+    const target = event.target;
+    if (!(target instanceof HTMLImageElement)) {
+      return;
+    }
+
+    const container = target.closest(".image-container");
+    if (container) {
+      container.classList.remove("is-missing");
+    }
+  },
+  true
+);
